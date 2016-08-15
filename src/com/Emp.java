@@ -1,5 +1,6 @@
 package com;
 
+import javax.annotation.Resource;
 import javax.xml.ws.BindingType;
 
 import org.springframework.beans.factory.annotation.Autowired;
