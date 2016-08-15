@@ -15,7 +15,7 @@ public class Emp {
 	
 	@Autowired
 	@Qualifier("cc")
-	private Contact cont;
+	private Contact contact;
 	
 	@Value("dummy")
 	private String valInjectCheck;
@@ -32,11 +32,11 @@ public class Emp {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public Contact getCont() {
-		return cont;
+	public Contact getContact() {
+		return contact;
 	}
-	public void setCont(Contact cont) {
-		this.cont = cont;
+	public void setContact(Contact cont) {
+		this.contact = cont;
 	}
 	
 

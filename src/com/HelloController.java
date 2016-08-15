@@ -17,8 +17,8 @@ public class HelloController{
    public String printHello(ModelMap model) {
       model.addAttribute("message", "Hello Spring MVC Framework!");
       System.out.println("-----------@value use "+e.getValInjectCheck());
-      System.out.println(e.getCont().getAddress());
-
+      System.out.println(e.getContact().getAddress());
+      System.out.println(e.getContact().getAddress2());
       return "hello";
    }
 

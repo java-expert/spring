@@ -1,5 +1,6 @@
 package com;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -9,7 +10,9 @@ public class ConfigurationClass {
 @Bean
 public Contact contact(){
 	System.out.println("---------------------------------getting contact ");
-	return new Contact();
+	Contact f=new Contact();
+	f.setAddress("ddddddddddddddd");
+	return f;
 }
 
 }
