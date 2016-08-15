@@ -4,6 +4,6 @@
 <title>hello jsp </title>
 </head>
 <body>
-Welcome to hello jsp page
+Welcome to hello jsp page ${message}
 </body>
 </html>
