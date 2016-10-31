@@ -1,0 +1,2 @@
+1. Custom dependency injection can be implemented via abstract pattern
+2. Circular dependency
